@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>Demo_5_Filters</title>
+</head>
+<body ng-app="demo_5_app" ng-controller="demo_5_controller">
+  Search: <input ng-model="search.name" type="text" />
+   <ul>
+     <li ng-repeat="person in developers | filter:search">
+       {{ person.name }} from {{ person.country }}
+     </li>
+   </ul>
+</body>
+<script src="lib/angular/angular.js"></script>
+<script src="js/controller.js"></script>
+</body>
+</html>

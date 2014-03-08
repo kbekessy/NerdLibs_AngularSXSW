@@ -1,0 +1,12 @@
+<!-- Link the view to the controller -->
+<div ng-controller="ResultsCtrl">
+
+	<!-- Show the name of the Nerd Libs template we're reading -->
+	<h2>{{template.name}}.</h2>
+
+	<!-- Create an empty div and use ng-include to load a partial view of our specific template -->
+	<div ng-include="template.templateUrl" class="rendered"></div>
+
+	<!-- Use ng-click to fire an event to reset our game and play again -->
+	<button class="btn btn-info btn-lg btn-block" type="button" ng-click="playAgain()">Play again!</button>
+</div>

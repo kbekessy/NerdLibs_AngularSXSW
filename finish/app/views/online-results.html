@@ -1,0 +1,10 @@
+<!-- Link the view to the controller -->
+<div ng-controller="OnlineResultsCtrl">
+  
+	<!-- Show the name of the Nerd Libs template we're reading -->
+  <h2>{{template.name}}.</h2>
+
+  <!-- Create an empty div and use ng-include to load a partial view of our specific template -->
+  <div ng-include="template.templateUrl" class="rendered"></div>
+
+</div>

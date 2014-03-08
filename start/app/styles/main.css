@@ -1,0 +1,117 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica;
+}
+
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  .header,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .header {
+    margin-bottom: 30px;
+  }
+}
+
+/*general styles*/
+h1 {
+  font-weight: bold;
+  margin: 1em;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 0.5em;
+}
+
+.header span {
+  background-color: #feff00;
+  font-weight: 600;
+  color: #e51837;
+}
+
+#libsForm {
+  position: relative;
+}
+
+#libsForm ul {
+  padding: 0;
+}
+
+.enterWord {
+  padding: .5em;
+  list-style: none;
+}
+
+.enterWord input {
+  left: 13em;
+  position: absolute;
+  width: 50%;
+  border-radius: 5px;
+  background-color: #cccccc;
+}
+
+.enterWord input:disabled {
+  background-color: gray;
+  color: #fff;
+}
+
+.rendered span {
+  font-weight: 600;
+  color: #e51837;
+}
+
+#libsForm .labels {
+    width: 40%;
+    display: inline-block;
+}
+#libsForm input{
+  display: inline-block;
+}
+#libsForm h2 {
+  text-align: center;
+  width: 30%;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0;
+}

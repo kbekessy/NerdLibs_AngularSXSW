@@ -1,0 +1,413 @@
+{
+    "0": {
+        "resultsReady": false,
+        "name": "Simple Nerd-Lib",
+        "templateUrl": "views/partials/testLibs.html",
+        "words": {
+            "0": {
+                "id": "word1",
+                "type": "Noun",
+                "isLocked": false,
+                "description": "Person, Place, or Thing"
+            },
+            "1": {
+                "id": "word2",
+                "type": "Adjective",
+                "isLocked": false,
+                "description": "a 'describing' word: big, hungry, fast"
+            },
+            "2": {
+                "id": "word3",
+                "type": "Verb",
+                "isLocked": false,
+                "description": "an 'action' word: running, jumping, learning"
+            },
+            "3": {
+                "id": "word4",
+                "type": "Verb(ing)",
+                "isLocked": false,
+                "description": "an 'action' word: running, jumping, learning"
+            },
+            "4": {
+                "id": "word5",
+                "type": "Plural Noun",
+                "isLocked": false,
+                "description": "People, Places, or Things"
+            }
+        }
+    },
+    "1": {
+        "resultsReady": false,
+        "name": "Watto's Junk Shop",
+        "templateUrl": "views/partials/wattosJunkShop.html",
+        "words": {
+            "0": {
+                "id": "word1",
+                "type": "Verb(ing)",
+                "isLocked": false,
+                "description": "an 'action' word: running, jumping, learning"
+            },
+            "1": {
+                "id": "word2",
+                "type": "Plural Noun",
+                "isLocked": false,
+                "description": "People, Places, or Things"
+            },
+            "2": {
+                "id": "word3",
+                "type": "Noun",
+                "isLocked": false,
+                "description": "Person, Place, or Thing"
+            },
+            "3": {
+                "id": "word4",
+                "type": "Plural Noun",
+                "isLocked": false,
+                "description": "People, Places, or Things"
+            },
+            "4": {
+                "id": "word5",
+                "type": "Verb(ing)",
+                "isLocked": false,
+                "description": "an 'action' word: running, jumping, learning"
+            },
+            "5": {
+                "id": "word6",
+                "type": "Adjective",
+                "isLocked": false,
+                "description": "a 'describing' word: big, hungry, fast"
+            },
+            "6": {
+                "id": "word7",
+                "type": "Verb",
+                "isLocked": false,
+                "description": "an 'action' word: run, jump, learn"
+            },
+            "7": {
+                "id": "word8",
+                "type": "Noun",
+                "isLocked": false,
+                "description": "Person, Place, or Thing"
+            },
+            "8": {
+                "id": "word9",
+                "type": "Noun",
+                "isLocked": false,
+                "description": "Person, Place, or Thing"
+            },
+            "9": {
+                "id": "word10",
+                "type": "Plural Noun",
+                "isLocked": false,
+                "description": "People, Places, or Things"
+            },
+            "10": {
+                "id": "word11",
+                "type": "Adjective",
+                "isLocked": false,
+                "description": "a 'describing' word: big, hungry, fast"
+            },
+            "11": {
+                "id": "word12",
+                "type": "Adjective",
+                "isLocked": false,
+                "description": "a 'describing' word: big, hungry, fast"
+            },
+            "12": {
+                "id": "word13",
+                "type": "Part of the Body (Plural)",
+                "isLocked": false,
+                "description": "A Part of the Body(Plural)"
+            },
+            "13": {
+                "id": "word14",
+                "type": "Plural Noun",
+                "isLocked": false,
+                "description": "People, Places, or Things"
+            },
+            "14": {
+                "id": "word15",
+                "type": "Number",
+                "isLocked": false,
+                "description": "Any Number, Any number and you win... "
+            },
+            "15": {
+                "id": "word16",
+                "type": "Same Plural Noun",
+                "isLocked": false,
+                "description": "The same Plural Noun you just used."
+            }
+        }
+    },
+    "2": {
+        "resultsReady": false,
+        "name": "SXSW First Timers Guide",
+        "templateUrl": "views/partials/firstTimersGuide.html",
+        "words": {
+            "0": {
+                "id": "word1",
+                "type": "Adjective",
+                "isLocked": false,
+                "description": "Person, Place, or Thing"
+            },
+            "1": {
+                "id": "word2",
+                "type": "Plural Noun",
+                "isLocked": false,
+                "description": "People, Places, or Things"
+            },
+            "2": {
+                "id": "word3",
+                "type": "Adverb",
+                "isLocked": false,
+                "description": "Describes an Action- Quickly"
+            },
+            "3": {
+                "id": "word4",
+                "type": "Verb",
+                "isLocked": false,
+                "description": "an 'action' word: running, jumping, learning"
+            },
+            "4": {
+                "id": "word5",
+                "type": "Verb",
+                "isLocked": false,
+                "description": "People, Places, or Things"
+            },
+            "5": {
+                "id": "word6",
+                "type": "Plural Noun",
+                "isLocked": false,
+                "description": "People, Places, or Things"
+            },
+            "6": {
+                "id": "word7",
+                "type": "Adjective",
+                "isLocked": false,
+                "description": "a 'describing' word: big, hungry, fast"
+            },
+            "7": {
+                "id": "word8",
+                "type": "Noun",
+                "isLocked": false,
+                "description": "Person, Place, or Thing"
+            },
+            "8": {
+                "id": "word9",
+                "type": "Plural Noun",
+                "isLocked": false,
+                "description": "People, Places, or Things"
+            },
+            "9": {
+                "id": "word10",
+                "type": "Noun",
+                "isLocked": false,
+                "description": "Person, Place, or Thing"
+            },
+            "10": {
+                "id": "word11",
+                "type": "Noun",
+                "isLocked": false,
+                "description": "Person, Place, or Thing"
+            },
+            "11": {
+                "id": "word12",
+                "type": "Noun",
+                "isLocked": false,
+                "description": "Person, Place, or Thing"
+            },
+            "12": {
+                "id": "word13",
+                "type": "Plural Noun",
+                "isLocked": false,
+                "description": "People, Places, or Things"
+            },
+            "13": {
+                "id": "word14",
+                "type": "Noun",
+                "isLocked": false,
+                "description": "Person, Place, or Thing"
+            },
+            "14": {
+                "id": "word15",
+                "type": "Noun",
+                "isLocked": false,
+                "description": "Person, Place, or Thing"
+            },
+            "15": {
+                "id": "word16",
+                "type": "Plural Noun",
+                "isLocked": false,
+                "description": "People, Places, or Things"
+            },
+            "16": {
+                "id": "word17",
+                "type": "Adverb",
+                "isLocked": false,
+                "description": "Describes an Action: Quickly"
+            },
+            "17": {
+                "id": "word18",
+                "type": "Plural Noun",
+                "isLocked": false,
+                "description": "People, Places, or Things"
+            },
+            "18": {
+                "id": "word19",
+                "type": "Noun",
+                "isLocked": false,
+                "description": "Person, Place, or Thing"
+            },
+            "19": {
+                "id": "word20",
+                "type": "Noun",
+                "isLocked": false,
+                "description": "Person, Place, or Thing"
+            },
+            "20": {
+                "id": "word21",
+                "type": "Plural Noun",
+                "isLocked": false,
+                "description": "People, Places, or Things"
+            },
+            "21": {
+                "id": "word22",
+                "type": "Noun",
+                "isLocked": false,
+                "description": "Person, Place, or Thing"
+            },
+            "22": {
+                "id": "word23",
+                "type": "Plural Noun",
+                "isLocked": false,
+                "description": "People, Places, or Things"
+            },
+            "23": {
+                "id": "word24",
+                "type": "Noun",
+                "isLocked": false,
+                "description": "Person, Place, or Thing"
+            },
+            "24": {
+                "id": "word25",
+                "type": "Noun",
+                "isLocked": false,
+                "description": "Person, Place, or Thing"
+            },
+            "25": {
+                "id": "word26",
+                "type": "Plural Noun",
+                "isLocked": false,
+                "description": "People, Places, or Things"
+            },
+            "26": {
+                "id": "word27",
+                "type": "Noun",
+                "isLocked": false,
+                "description": "Person, Place, or Thing"
+            },
+            "27": {
+                "id": "word28",
+                "type": "Noun",
+                "isLocked": false,
+                "description": "Person, Place, or Thing"
+            },
+            "28": {
+                "id": "word29",
+                "type": "Plural Noun",
+                "isLocked": false,
+                "description": "People, Places, or Things"
+            },
+            "29": {
+                "id": "word30",
+                "type": "Adjective",
+                "isLocked": false,
+                "description": "a 'describing' word: big, hungry, fast"
+            },
+            "30": {
+                "id": "word31",
+                "type": "Plural Noun",
+                "isLocked": false,
+                "description": "People, Places, or Things"
+            },
+            "31": {
+                "id": "word32",
+                "type": "Plural Noun",
+                "isLocked": false,
+                "description": "People, Places, or Things"
+            },
+            "32": {
+                "id": "word33",
+                "type": "Plural Noun",
+                "isLocked": false,
+                "description": "People, Places, or Things"
+            },
+            "33": {
+                "id": "word34",
+                "type": "Adjective",
+                "isLocked": false,
+                "description": "a 'describing' word: big, hungry, fast"
+            },
+            "34": {
+                "id": "word35",
+                "type": "Plural Noun",
+                "isLocked": false,
+                "description": "People, Places, or Things"
+            },
+            "35": {
+                "id": "word36",
+                "type": "Plural Noun",
+                "isLocked": false,
+                "description": "People, Places, or Things"
+            },
+            "36": {
+                "id": "word37",
+                "type": "Noun",
+                "isLocked": false,
+                "description": "Person, Place, or Thing"
+            },
+            "37": {
+                "id": "word38",
+                "type": "Noun",
+                "isLocked": false,
+                "description": "Person, Place, or Thing"
+            },
+            "38": {
+                "id": "word39",
+                "type": "Adjective",
+                "isLocked": false,
+                "description": "a 'describing' word: big, hungry, fast"
+            },
+            "39": {
+                "id": "word40",
+                "type": "Noun",
+                "isLocked": false,
+                "description": "Person, Place, or Thing"
+            },
+            "40": {
+                "id": "word41",
+                "type": "Plural Noun",
+                "isLocked": false,
+                "description": "People, Places, or Things"
+            },
+            "41": {
+                "id": "word42",
+                "type": "Plural Noun",
+                "isLocked": false,
+                "description": "People, Places, or Things"
+            },
+            "42": {
+                "id": "word43",
+                "type": "Noun",
+                "isLocked": false,
+                "description": "Person, Place, or Thing"
+            },
+            "43": {
+                "id": "word44",
+                "type": "Noun",
+                "isLocked": false,
+                "description": "Person, Place, or Thing"
+            }
+        }
+    }
+}

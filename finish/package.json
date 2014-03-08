@@ -1,0 +1,10 @@
+{
+  "name"         : "nerd-libs-app",
+  "version"      : "0.0.0",
+  "description"  : "Simple Mad Libs app with Angular",
+  "main"         : "server.js",
+  "author"       : "R/GA",
+  "dependencies" : {
+    "express"    : "~3.4.4"
+   }
+}

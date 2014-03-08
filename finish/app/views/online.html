@@ -1,0 +1,31 @@
+<!-- Link the view to the controller -->
+<div ng-controller="OnlineCtrl">
+
+	<!-- Display the Nerd Libs template's name -->
+	<h2>{{libsTemplate.name}}</h2>
+
+	<p>Type in a word and press Enter to lock it.</p>
+
+  <form name="libsForm" id="libsForm">
+		<ul>
+			<!-- use ng-repeat to generate input fields for all the words we need to play -->
+			<!-- add forceNaturalOrder custom filter to the repeat to make sure the order of the words is correct -->
+			<li ng-repeat="word in libsTemplate.words track by word.id | forceNaturalOrder" class="enterWord">
+        <div class="labels">
+  				<!-- add the popover directive to the label to show a tooltip describing the word type -->
+  				<label for="{{word.id}}" href="#" popover-trigger="mouseenter" popover="{{word.description}}" popover-placement="right">{{word.type}}
+            <span class="bg-success glyphicon glyphicon-question-sign"></span>
+          </label>
+        </div>
+        <!-- use ng-model to bind the input field to our scope -->
+				<!-- use ng-disabled to check when the word is locked -->
+				<!-- use ng-keydown to track when Enter or Tab is pressed to locked the word -->
+        <h2 class="locked" ng-show="word.isLocked"> {{word.word}}</h2>
+
+        <input type="text" ng-readonly="word.isLocked" ng-hide="word.isLocked" id="{{word.id}}" ng-model="
+        local[$index]" ng-disabled="word.isLocked == true" ng-keydown="addWord($event, $index)" />
+			</li>
+		</ul>
+	</form>
+</div>
+

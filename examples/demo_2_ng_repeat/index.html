@@ -1,0 +1,18 @@
+<html ng-app="demo_2_app">
+<head>
+<title>Demo_2_Ng_Repeat</title>
+</head>
+<body ng-controller="demo_2_controller">
+ 
+  <ul>
+    <li ng-repeat="item in items">
+      {{item.name}}
+      <p>{{item.description}}</p>
+    </li>
+  </ul>
+
+ <script src="lib/angular/angular.js"></script>
+ <script src="js/controller.js"></script>
+ 
+</body>
+</html>
