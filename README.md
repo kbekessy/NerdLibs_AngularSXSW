@@ -23,6 +23,7 @@ Resources for the Workshop
 ---
 
 + [Batarang](http://bit.ly/1eUH8bJ) (Angular Debugger Chrome Extension)
++ Live, online version of the app is [here](https://angularsxsw.firebaseapp.com)
 + [Grunt](http://gruntjs.com/) and [Bower](http://bower.io/) (optional)
 + [Yoeman](http://yeoman.io/) (optional)
 + [Generator Angular](https://github.com/yeoman/generator-angular) for Yoeman (optional)
