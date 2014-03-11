@@ -3,6 +3,8 @@ Nerd Libs
 
 Demo Mad Libs app using Angular.js to teach a workshop at SXSW2014
 
+Presentation slides for the workshop are [here](http://www.slideshare.net/kbekessy/angular-js-sxsw2014)
+
 Project includes
 ---
 
